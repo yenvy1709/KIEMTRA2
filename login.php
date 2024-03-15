@@ -27,6 +27,15 @@
             </div>
         </div>
     </div>
+    <?php
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        if ($username == 'admin' && $password == 'admin') {
+            echo "<span style='color:purple; font-weight:bold;'>Dang nhap thanh cong</span> ";
+        } else {
+            echo "<span style='color:red; font-weight:bold;'>Tên däng nhâp/Mât khau sai. Vui long nhâp lai </span> ";
+        }
+?>
 </body>
 
 </html>
