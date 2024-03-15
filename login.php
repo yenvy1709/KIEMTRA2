@@ -15,11 +15,11 @@
             <div class="col-md-6">
                 <form action="result.php" method="POST" class="mt-4">
                     <div class="form-group">
-                        <label for="username">UserName:</label>
+                        <label for="username">Ten dang nhap:</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Mật khẩu:</label>
+                        <label for="password">Mat khau:</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
                 </form>
